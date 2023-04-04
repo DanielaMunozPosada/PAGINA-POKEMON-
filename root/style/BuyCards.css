@@ -202,6 +202,11 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+
+  .socialmedia>a{
+    font-size: 30px;
+    margin-right: 5%;
+  }
   
 footer>div>p{
     width: 292px;
@@ -244,6 +249,11 @@ footer>div:last-child {
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .links_container>ul>p{
+    color: #FFFFFF;
+    font-weight: bold;
   }
   
 .info_links>ul{

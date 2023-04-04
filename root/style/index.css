@@ -64,6 +64,8 @@ main {
 .info_container>div>a{
     color: #1A202C;;
     justify-content: space-between;
+    margin-right: 2%;
+    font-weight: bold;
 }
   
 h1 {
@@ -103,6 +105,11 @@ footer {
     justify-content: space-between;
 }
 
+.socialmedia>a{
+    font-size: 30px;
+    margin-right: 5%;
+}
+
 footer>div>p{
     width: 292px;
     height: 48px;
@@ -116,7 +123,7 @@ footer>div>p{
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding: 50px 5px;
+    padding: 30px 5px;
 }
 
 footer>div>img{
@@ -144,6 +151,11 @@ footer>div:last-child {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.links_container>ul>p{
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 .info_links>ul{

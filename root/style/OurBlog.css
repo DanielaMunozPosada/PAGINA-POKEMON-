@@ -4,6 +4,26 @@
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
   }
+
+  body.darkMode {
+    background-color: #1A202C;;
+  }
+  
+  .darkMode h1{
+    color: white;
+  }
+  
+  .darkMode p{
+    color: white;
+  }
+  
+  .darkMode>main>div>p{
+    color: white;
+  }
+  
+  .darkMode a {
+    color:white;
+  }
   
   a {
     text-decoration: none;

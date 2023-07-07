@@ -1,42 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-a{
+body.darkMode {
+    background-color: #1A202C;
+}
+
+.darkMode h1{
+    color: white;
+}
+
+.darkMode p{
+    color: white;
+}
+
+.darkMode a{
+    color:white;
+}
+
+.darkMode>main>section>div>a{
+    color:white;
+}
+
+a {
     text-decoration: none;
     color: white;
 }
-    
+
 ul {
     list-style: none;
 }
 
 header {
     background-color: #306BB3;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
 }
-  
+
 header>div {
     height: 100%;
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-  
+
 nav>ul {
     display: flex;
     gap: 40px;
 }
-  
-header button {
+
+.dark_mode {
     height: 40%;
     width: 20%;
     border: none;
@@ -44,6 +64,7 @@ header button {
     color: #306BB3 ;
     font-weight: 500;
     cursor: pointer;
+    padding: 0 2%;
 }
 
 main {
@@ -58,8 +79,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
-
+}
 
 .info_container>div>a{
     color: #1A202C;;
@@ -67,7 +87,7 @@ main {
     margin-right: 2%;
     font-weight: bold;
 }
-  
+
 h1 {
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
@@ -77,7 +97,8 @@ h1 {
     align-items: center;
     text-transform: uppercase;
     color: #1A202C;
-  }
+
+}
 
 p {
     display: flex;
@@ -87,8 +108,8 @@ p {
     font-weight: 500;
     font-size: 16px;
     color: #1A202C;
-  }
-  
+}
+
 p:last-child {
     color: #1A202C;
     font-family: 'Plus Jakarta Sans';
@@ -132,14 +153,14 @@ footer>div>img{
     left: 56px;
     top: 68px;
 }
-  
+
 footer>div:first-child{
     display: flex;
     flex-direction: column;
     gap: 30px;
     color: white;
 }
-  
+
 footer>div:last-child {
     display: flex;
     width: 50%;
@@ -168,4 +189,4 @@ footer>div:last-child {
     font-size: 16px;
     color: #FFFFFF;
     mix-blend-mode: normal;
-  }
+}
